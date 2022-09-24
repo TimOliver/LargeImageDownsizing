@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C41B001F13E8C43D0089C2E6 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = C41B001E13E8C43D0089C2E6 /* ReadMe.txt */; };
+		2235AFFF28DEEA2000A8384C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2235AFFE28DEEA2000A8384C /* README.md */; };
+		2235B00328DEEA7F00A8384C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2235B00228DEEA7F00A8384C /* LaunchScreen.storyboard */; };
 		C42B301518DB7CBC00F98B9F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C42B301318DB7CBC00F98B9F /* MainWindow.xib */; };
 		C465AC9F138B5AEE00055050 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C465AC9E138B5AEE00055050 /* UIKit.framework */; };
 		C465ACA1138B5AEE00055050 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C465ACA0138B5AEE00055050 /* Foundation.framework */; };
@@ -31,8 +32,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C41B001E13E8C43D0089C2E6 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = SOURCE_ROOT; };
-		C42B301418DB7CBC00F98B9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2235AFFE28DEEA2000A8384C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		2235B00228DEEA7F00A8384C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2235B00628DEEAB100A8384C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2235B00728DEEAB100A8384C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LargeImageDownsizingViewController.xib; sourceTree = "<group>"; };
 		C465AC9A138B5AEE00055050 /* LargeImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LargeImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C465AC9E138B5AEE00055050 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C465ACA0138B5AEE00055050 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,7 +48,6 @@
 		C465ACAE138B5AEE00055050 /* LargeImageDownsizingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LargeImageDownsizingAppDelegate.m; sourceTree = "<group>"; };
 		C465ACB3138B5AEF00055050 /* LargeImageDownsizingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LargeImageDownsizingViewController.h; sourceTree = "<group>"; };
 		C465ACB4138B5AEF00055050 /* LargeImageDownsizingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LargeImageDownsizingViewController.m; sourceTree = "<group>"; };
-		C465ACB7138B5AEF00055050 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LargeImageDownsizingViewController.xib; sourceTree = "<group>"; };
 		C465ACCD138B5CCB00055050 /* ImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScrollView.h; sourceTree = "<group>"; };
 		C465ACCE138B5CCB00055050 /* ImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScrollView.m; sourceTree = "<group>"; };
 		C465ACCF138B5CCB00055050 /* TiledImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledImageView.h; sourceTree = "<group>"; };
@@ -108,7 +110,8 @@
 		C465ACA4138B5AEE00055050 /* LargeImageDownsizing */ = {
 			isa = PBXGroup;
 			children = (
-				C41B001E13E8C43D0089C2E6 /* ReadMe.txt */,
+				2235AFFE28DEEA2000A8384C /* README.md */,
+				2235B00228DEEA7F00A8384C /* LaunchScreen.storyboard */,
 				C465ACAD138B5AEE00055050 /* LargeImageDownsizingAppDelegate.h */,
 				C465ACAE138B5AEE00055050 /* LargeImageDownsizingAppDelegate.m */,
 				C465ACB3138B5AEF00055050 /* LargeImageDownsizingViewController.h */,
@@ -176,14 +179,15 @@
 		C465AC91138B5AEE00055050 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 1400;
 			};
 			buildConfigurationList = C465AC94138B5AEE00055050 /* Build configuration list for PBXProject "LargeImageDownsizing" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = C465AC8F138B5AEE00055050;
 			productRefGroup = C465AC9B138B5AEE00055050 /* Products */;
@@ -206,12 +210,13 @@
 				C465ACE0138B6A3D00055050 /* Icon-Small-50.png in Resources */,
 				C4BB37FF18AAD07800E4E62F /* Default-568h@2x.png in Resources */,
 				C465ACE1138B6A3D00055050 /* Icon-Small.png in Resources */,
+				2235AFFF28DEEA2000A8384C /* README.md in Resources */,
+				2235B00328DEEA7F00A8384C /* LaunchScreen.storyboard in Resources */,
 				C465ACE2138B6A3D00055050 /* Icon-Small@2x.png in Resources */,
 				C465ACE3138B6A3D00055050 /* Icon.png in Resources */,
 				C42B301518DB7CBC00F98B9F /* MainWindow.xib in Resources */,
 				C465ACE4138B6A3D00055050 /* Icon@2x.png in Resources */,
 				C4CBB70E13D1404300D1B910 /* large_leaves_70mp.jpg in Resources */,
-				C41B001F13E8C43D0089C2E6 /* ReadMe.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,7 +241,7 @@
 		C42B301318DB7CBC00F98B9F /* MainWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C42B301418DB7CBC00F98B9F /* en */,
+				2235B00628DEEAB100A8384C /* Base */,
 			);
 			name = MainWindow.xib;
 			sourceTree = "<group>";
@@ -252,7 +257,7 @@
 		C465ACB6138B5AEF00055050 /* LargeImageDownsizingViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C465ACB7138B5AEF00055050 /* en */,
+				2235B00728DEEAB100A8384C /* Base */,
 			);
 			name = LargeImageDownsizingViewController.xib;
 			sourceTree = "<group>";
@@ -263,7 +268,9 @@
 		C465ACB9138B5AEF00055050 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -271,7 +278,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -280,12 +287,13 @@
 		C465ACBA138B5AEF00055050 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 			};
@@ -295,13 +303,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LargeImageDownsizing/LargeImageDownsizing-Prefix.pch";
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "LargeImageDownsizing/LargeImageDownsizing-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				"PROVISIONING_PROFILE[sdk=*]" = "";
 				WRAPPER_EXTENSION = app;
@@ -312,13 +322,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LargeImageDownsizing/LargeImageDownsizing-Prefix.pch";
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "LargeImageDownsizing/LargeImageDownsizing-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALIDATE_PRODUCT = YES;
